@@ -1,3 +1,5 @@
 document.querySelector("main").remove()
-h1Victory = document.createElement('h1').id = "victory"
-newHeader = document.querySelector("body").appendChild(h1Victory)
+let h1Victory = document.createElement('h1')
+h1Victory.id = "victory"
+let newHeader = document.querySelector("body")
+newHeader.appendChild(h1Victory)
